@@ -1,0 +1,32 @@
+using System;
+
+class MainClass {
+public static void Main (string[] args) {
+Console.WriteLine ("Hello World");
+Console.WriteLine("This is how to write to the console");
+
+
+//This is a basic example of sequencing
+int person1 = 50;
+int person2 = 250;
+int person3 = person1 + person2;
+Console.WriteLine("person 1 + person 2 = " + person3);
+//This is an example of Selection
+if(person2 > person1){
+Console.WriteLine("Person2 is bigger");
+}
+else
+{
+Console.WriteLine("Person 1 is bigger or the same");
+}
+
+//This is an example of Iteration
+int[] people = {1,4,2,5,4,3};
+Console.WriteLine("The first value in the list is: " + people[0] + "\n The last value is " + people[5]);
+
+for (int i = 0; i < people.Length; i++)
+{
+Console.WriteLine("Element " + i + " In the list: " + people[i]);
+}
+}
+}
